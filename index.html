@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png">
+    <title>Calculator</title>
+</head>
+<style></style>
+<body>
+    <div class="calbody">
+        <form action="">
+            <input id="display">
+        </form>
+        <div class="row1">
+            <button type="button" onclick="clearDisplay()">AC</button>
+             <button type="button" onclick="deleteLast()">
+                <img src="https://cdn0.iconfinder.com/data/icons/math-calculator-1/32/delete-1024.png" alt="">
+             </button>
+              <button id="percentage" onclick="appendOperator('%', '%')">%</button>
+               <button type="button" id="divide" class="operator" onclick=" appendOperator('/', '&divide;')">&divide;
+</button>
+        </div>
+        <div class="row1">
+            <button type="button" value="7" onclick="appendNumber('7')">7</button>
+             <button type="button" onclick="appendNumber('8')">
+                8
+             </button>
+              <button type="button" onclick="appendNumber('9')">9</button>
+               <button type="button" class="operator" id="multiply" onclick="appendOperator('*', '×')">X
+</button>
+        </div>
+         <div class="row1">
+            <button type="button" onclick="appendNumber('4')">4</button>
+             <button type="button" onclick="appendNumber('5')">
+                5
+             </button>
+              <button type="button" onclick="appendNumber('6')">6</button>
+               <button type="button" id="minus" class="operator" onclick="appendNumber('-') ; operate('-')">-
+</button>
+        </div>
+         <div class="row1">
+            <button type="button" onclick="appendNumber('1')">1</button>
+             <button type="button" onclick="appendNumber('2')">
+                2
+             </button>
+              <button type="button" onclick="appendNumber('3')">3</button>
+               <button type="button" id="add" class="operator"onclick="appendNumber('+') ; operate('+')">+
+</button>
+        </div>
+         <div class="row1">
+            <button type="button" class="btn" onclick="appendNumber('0')">0</button>
+             
+              <button type="button" onclick="appendNumber('.')">.</button>
+               <button type="button" class="operator" onclick="evaluateResult()">=
+</button>
+        </div>
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

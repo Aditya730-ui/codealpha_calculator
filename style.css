@@ -1,0 +1,53 @@
+.calbody{
+    
+    height: 880px;
+    width: 670px;
+   margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    border-radius: 18px;
+    background-color: black;
+    box-shadow: 20px 20px 30px rgba(9, 1, 29, 0.8);
+
+}
+input{
+    width: 600px;
+    height: 170px;
+   margin:  19px ;
+   margin-left: 34px;
+   text-align: end;
+   border-radius: 12px;
+   background-color: rgb(77, 76, 76);
+   font-size: 2rem;
+   color: aliceblue;
+}
+.row1{
+    
+    height: 90px;
+     margin: 19px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+button{
+    height: 80px;
+    width: 120px;
+    margin: 40px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background-color:rgb(143, 140, 140); 
+}
+button img{
+    height: 30px;
+}
+.btn{
+    width: 360px;
+    border-radius: 30px;
+}
+body{
+    background-color: rgb(103, 87, 251);
+}
+.operator{
+    background-color: rgb(217, 101, 18);
+}
