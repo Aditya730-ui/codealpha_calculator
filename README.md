@@ -1,0 +1,1 @@
+Built a responsive calculator using HTML, CSS, and JavaScript with features like clear, delete, addition, subtraction, multiplication, division, and percentage. It supports both mouse and keyboard input, ensuring seamless and accessible interaction across all devices.
